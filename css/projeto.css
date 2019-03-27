@@ -1,0 +1,119 @@
+body{
+  display: grid;
+  grid-template-areas: "fill head fill2"
+                       "fill links fill2"
+                       "capa capa capa"
+                       "filler apre apre"
+                       "corpo corpo corpo"
+                       "cta cta cta"
+                       "foot foot foot";
+  grid-template-rows: 4em 3em 30em auto auto 19em 17em;
+  grid-template-columns: 2.53fr 2fr 2.5fr;
+  font-family: 'Space Mono', monospace;
+}
+.capa{
+	grid-area: capa;
+}
+.imagemcapa{
+	width: 88%;
+	max-height: 95%;
+	margin-top: 1%;
+	margin-left: 6%;
+}
+.apresentacao{
+	grid-area: filler;
+	margin-top: 3%;
+    margin-left: 50%;
+}
+.apresentacao *{
+	color: #939598;
+}
+.apresentacao h2{
+  line-height: 5%;
+  font-family: 'Space Mono', monospace;
+}
+.apresentacao h3{
+  line-height: 50%;
+  margin-top: 1em;
+  font-family: 'Space Mono', monospace;
+  font-weight: normal;
+}
+.apresentacao1{
+	grid-area: apre;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 0.87em;
+}
+.apresentacao1 *{
+	color: #939598;
+}
+.apresentacao1 h2{
+  font-family: 'Space Mono', monospace;
+}
+.corpo{
+  grid-area: corpo;  
+}
+@media only screen and (max-width:1397px) {
+.apresentacao h2{
+	font-size: 1.6em;
+}
+.apresentacao1 h2{
+	font-size: 1.6em;
+}
+}
+@media only screen and (max-width:1039px) {
+.apresentacao h3{
+	font-size: 1.1em;
+}
+}
+@media only screen and (max-width:864px) {
+.apresentacao h2{
+	font-size: 1.2em;
+}
+.apresentacao1 h2{
+	font-size: 1.2em;
+}
+.apresentacao p{
+	font-size: 0.9em;
+}
+.apresentacao h3{
+	font-size: 0.9em;
+}
+.apresentacao{
+	margin-left: 30%;
+}
+}
+@media only screen and (max-width:650px) {
+body{
+  display: grid;
+  grid-template-areas: "head head"
+                       "links links"
+                       "capa capa"
+                       "filler apre"
+                       "corpo fill1"
+                       "cta cta"
+                       "foot foot";
+  grid-template-rows: 5em 5em auto auto auto 18em 27em;
+  grid-template-columns: 1fr 1fr;
+  }
+.apresentacao h2{
+	font-size: 0.9em;
+	line-height: 1%;
+}
+.apresentacao1 h2{
+	font-size: 1em;
+}
+.apresentacao p{
+	font-size: 0.8em;
+}
+.apresentacao h3{
+	font-size: 0.8em;
+}
+.apresentacao{
+	margin-left: 30%;
+}
+}
+
+@media only screen and (max-width:330px) {
+
+}

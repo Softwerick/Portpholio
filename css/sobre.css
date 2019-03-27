@@ -1,0 +1,105 @@
+body{
+  display: grid;
+  grid-template-areas: "fill1 head fill2"
+  					   "fill3 botoes fill4"
+  					   "fill5 corpo fill6"
+  					   "fill7 texto fill8"
+  					   "fill9 eu fill10"
+  					   "cta cta cta"
+  					   "foot foot foot";
+                       
+  grid-template-rows: 4em 3em 16em 17em 11em 18em 17em;
+  grid-template-columns: 2.3fr 2.5fr 2.3fr;
+  font-family: 'Space Mono', monospace;
+}
+hr{
+	background-color: #5fff9b;
+	height: 0.1em;
+	width: 10em;
+	border-radius: 50px;
+	border: 3px solid #5fff9b;
+}
+.headerSobre{
+	grid-area: head;
+}
+.headerSobre h2{
+	display:flex;
+	justify-content: center;
+	margin-top: 0.5em;
+  	font-size: 2.5em;
+  	margin-left: 0.2em; 
+	 font-family: 'Space Mono', monospace;
+}
+.botoesSobre{
+	grid-area: botoes;
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+  	font-size: 1.1em;
+}
+.botoesSobre a{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.corpoSobre{
+	grid-area: corpo;
+}
+.corpoSobre p{
+	font-size: 3.6em;
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	
+}
+.texto1{
+	grid-area: fill7;
+}
+h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Space Mono', monospace;
+}
+li{
+	text-align: center;
+	list-style: none;
+	margin-top: 0.2em;
+	margin-right: 2.2em;
+	font-size: 1.3em;
+}
+.texto2{
+	grid-area: texto;
+}
+.texto3{
+	grid-area: fill8;
+}
+.eu{
+	grid-area: eu;
+}
+.eu h1{
+	text-align: center;
+	font-size: 3em;
+}
+.eu p{
+	text-align: center;
+}
+.cta{
+	grid-area: cta;
+	margin-top:2em;
+	text-align: center;
+}
+.direitos{
+  text-align: left;
+  margin-right: 2em;
+  font-size: 0.65em;
+}
+@media only screen and (max-width: 1312px) {
+.corpoSobre p{
+	font-size: 3em;
+}
+
+}
+
+@media only screen and (max-width: 999px) {
+
+
+}
