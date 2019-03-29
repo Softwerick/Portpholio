@@ -141,6 +141,7 @@ a.darken:hover img {
   position: relative;
 }
 .texto{
+  text-align: center;
   margin-top: 0.55em;
   margin-left: -328px;
   display: flex;
