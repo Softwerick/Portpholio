@@ -7,7 +7,7 @@ body{
                        "corpo corpo corpo"
                        "cta cta cta"
                        "foot foot foot";
-  grid-template-rows: 4em 3em 30em auto auto 19em 17em;
+  grid-template-rows: 4em 3em 32em auto auto 19em 17em;
   grid-template-columns: 2.53fr 2fr 2.5fr;
   font-family: 'Space Mono', monospace;
 }
@@ -16,7 +16,7 @@ body{
 }
 .imagemcapa{
 	width: 88%;
-	max-height: 95%;
+	max-height: 100%;
 	margin-top: 1%;
 	margin-left: 6%;
 }
@@ -27,7 +27,7 @@ body{
 }
 .apresentacao{
 	grid-area: filler;
-	margin-top: 3%;
+	margin-top: 6%;
     margin-left: 50%;
 }
 .apresentacao *{
@@ -46,6 +46,7 @@ body{
 .apresentacao1{
 	grid-area: apre;
 	margin-left: 10%;
+  margin-top: 2%;
 	margin-right: 10%;
 	font-size: 0.87em;
 }
