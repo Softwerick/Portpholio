@@ -136,7 +136,7 @@ body{
                        "corpo corpo corpo"
                        "cta cta cta"
                        "foot foot foot";
-  grid-template-rows: 4em 3em auto 16em 25em;
+  grid-template-rows: 4em 3em auto 19em 20em;
   grid-template-columns: 2.53fr 2fr 2.5fr;
   font-family: 'Space Mono', monospace;
 }
@@ -154,7 +154,7 @@ body{
                        "corpo corpo corpo"
                        "cta cta cta"
                        "foot foot foot";
-  grid-template-rows: 4em 3em auto 16em 25em;
+  grid-template-rows: 4em 3em auto 19em 20em;
   grid-template-columns: 2.53fr 2fr 2.5fr;
   font-family: 'Space Mono', monospace;
 }
@@ -174,7 +174,7 @@ body{
                        "corpo corpo corpo"
                        "cta cta cta"
                        "foot foot foot";
-  grid-template-rows: 4em 3em auto 16em 25em;
+  grid-template-rows: 4em 3em auto 19em 18em;
   grid-template-columns: 2.53fr 2fr 2.5fr;
   font-family: 'Space Mono', monospace;
 }
@@ -185,6 +185,16 @@ body{
     min-height: 50%;
     max-height: 50%;
   }
+.footer{
+  display:grid;
+  grid-area: foot;
+  grid-template-areas: "msg botoes topo"
+                       "fill icone fill2";
+  grid-template-rows: 3em 3em;
+  grid-template-columns: 1fr 1fr 0.6fr;
+  background-color:#3a3c4a;
+  padding: 2em;
+}
 .icones span{
   border: 2px solid #5fff9b;
   padding: 5px;
@@ -192,7 +202,7 @@ body{
   color: #3a3c4a;
   border-radius: 50px;
   margin-top: 1.4em;
-  font-size: 2em;
+  font-size: 1.7em;
   margin-right: 0.2em;
 }
 .icones p{
@@ -203,7 +213,7 @@ body{
   margin-left: 3em;
 }
 .botoesFooter{
-  margin-left: 2.6em;
+  margin-left: 1.2em;
 }
 }
 @media only screen and (max-width: 907px) {
@@ -214,8 +224,8 @@ body{
     color: #3a3c4a;
     border-radius: 50px;
     margin-top: 1.4em;
-    font-size: 1.6em;
-    margin-right: 0.2em;
+    font-size: 1.4em;
+    margin-right: 0em;
 }
   .icones p{
     line-height:1em;
@@ -223,10 +233,11 @@ body{
     font-weight: normal;
     text-align: center;
     margin-left: 0em;
-    margin-right: 5em;
+    margin-right: 3em;
 }
   .botoesFooter{
     margin-left: 0em;
+    font-size: 0.85em;
 }
 }
 @media only screen and (max-width: 800px) {
@@ -237,7 +248,7 @@ body{
                         "corpo"
                         "cta"
                         "foot";
-    grid-template-rows: 5em 5em auto 22em 27em;
+    grid-template-rows: 5em 5em auto 22em 20em;
     grid-template-columns: 1fr;
   }
   .imagem{
@@ -255,10 +266,19 @@ body{
     color: #3a3c4a;
     border-radius: 50px;
     margin-top: 1.4em;
-    font-size: 2em;
+    font-size: 1.7em;
     margin-right: 0.2em;
 }
-
+.footer{
+  display:grid;
+  grid-area: foot;
+  grid-template-areas: "msg botoes topo"
+                       "fill icone fill2";
+  grid-template-rows: 3em 3em;
+  grid-template-columns: 1.5fr 1fr 0.6fr;
+  background-color:#3a3c4a;
+  padding: 2em;
+}
 .icones p{
   line-height:1em;
   font-size: 11px;
@@ -279,7 +299,7 @@ body{
                        "corpo"
                        "cta"
                        "foot";
-  grid-template-rows: 5em 5em auto 18em 27em;
+  grid-template-rows: 5em 5em auto 18em 20em;
   grid-template-columns: 1fr;
   }
 .header{
@@ -303,10 +323,6 @@ body{
   min-height: 50%;
   max-height: 50%;
   float:left;
-  display:flex;
-}
-a.darken:hover img {
-    opacity: 1;
 }
 .cta p{
   margin-top: 0.5em;
@@ -345,7 +361,7 @@ body{
                        "corpo"
                        "cta"
                        "foot";
-  grid-template-rows: 5em 5em auto 18em 27em;
+  grid-template-rows: 5em 5em auto 18em 20em;
   grid-template-columns: 1fr;
   }
 .imagem{
@@ -358,14 +374,14 @@ body{
   .cta p{
     font-size: 2.5em;
   }
-    .icones span{
+  .icones span{
   border: 2px solid #5fff9b;
   padding: 5px;
   background-color:#5fff9b;
   color: #3a3c4a;
   border-radius: 50px;
   margin-top: 1.4em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-right: 0.2em;
 }
 
@@ -387,14 +403,14 @@ body{
   .cta p{
     font-size: 2em;
   }
-    .icones span{
+  .icones span{
   border: 2px solid #5fff9b;
   padding: 5px;
   background-color:#5fff9b;
   color: #3a3c4a;
   border-radius: 50px;
   margin-top: 1.4em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-right: 0.2em;
 }
 
@@ -416,7 +432,7 @@ body{
                        "corpo"
                        "cta"
                        "foot";
-  grid-template-rows: 5em 5em auto 18em 27em;
+  grid-template-rows: 5em 5em auto 18em 20em;
   grid-template-columns: 1fr;
   }
   .imagem{
@@ -431,7 +447,7 @@ body{
   color: #3a3c4a;
   border-radius: 50px;
   margin-top: 1.4em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-right: 0.2em;
 }
 
