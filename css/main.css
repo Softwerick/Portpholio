@@ -56,7 +56,6 @@ body{
   float: left; 
   margin-top: 0.9em;
   margin-left: 1.2em;
-  z-index: 0;
 }
 .imagem1{
   margin-left: 4.9em;
@@ -123,44 +122,6 @@ body{
   text-align: left;
   font-size: 0.65em;
 }
-a.darken img {
-    display: block;/*
-    -webkit-transition: all 0.5s linear;
-       -moz-transition: all 0.5s linear;
-        -ms-transition: all 0.5s linear;
-         -o-transition: all 0.5s linear;
-            transition: all 0.5s linear;*/
-}
-
-a.darken:hover img {
-    opacity: 0.7;
-    color: black;
-
-}
-.card{
-  position: relative;
-}
-.texto{
-  text-align: center;
-  margin-top: 0.55em;
-  margin-left: -328px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  max-width: 328px;
-  height: 240px;
-  width: 100%;
-  background: black;
-  opacity: 0;
-  transition: 0.5s ease;
-  color: white;
-  font-style: italic;
-  font-size: 22px;
-}
-.texto:hover{
-  opacity: 0.7;
-}
 .verde{
   color:#5fff9b;
 }
@@ -183,24 +144,7 @@ a.darken:hover img {
     max-width: 22%;
     min-height: 60%;
     max-height: 60%;
-    display:none;
   }
-  .texto{
-  margin-left: -22%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  max-width: 22%;
-  height: 223px;
-  width: 100%;
-  background: black;
-  opacity: 0;
-  transition: 0.5s ease;
-  color: white;
-  font-style: italic;
-  font-size: 22px;
-}
 }
 @media only screen and (max-width: 1318px) {
   body{
@@ -221,22 +165,6 @@ a.darken:hover img {
     min-height: 60%;
     max-height: 60%;
   }
-  .texto{
-  margin-left: -23%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  max-width: 23%;
-  height: 200px;
-  width: 100%;
-  background: black;
-  opacity: 0;
-  transition: 0.5s ease;
-  color: white;
-  font-style: italic;
-  font-size: 22px;
-}
 }
 @media only screen and (max-width: 1200px) {
   body{
@@ -257,22 +185,6 @@ a.darken:hover img {
     min-height: 50%;
     max-height: 50%;
   }
-  .texto{
-  margin-left: -22%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  max-width: 22%;
-  height: 160px;
-  width: 100%;
-  background: black;
-  opacity: 0;
-  transition: 0.5s ease;
-  color: white;
-  font-style: italic;
-  font-size: 22px;
-}
 .icones span{
   border: 2px solid #5fff9b;
   padding: 5px;
@@ -336,10 +248,6 @@ a.darken:hover img {
     min-height: 30%;
     max-height: 30%;
   }
-  .texto{
-    display:none;
-    opacity: 1;
-  }
   .icones span{
     border: 2px solid #5fff9b;
     padding: 5px;
@@ -396,10 +304,6 @@ a.darken:hover img {
   max-height: 50%;
   float:left;
   display:flex;
-}
-.texto{
-  display:none;
-  opacity: 1;
 }
 a.darken:hover img {
     opacity: 1;
