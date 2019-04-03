@@ -28,7 +28,7 @@ body{
 .apresentacao{
 	grid-area: filler;
 	margin-top: 6%;
-    margin-left: 50%;
+  margin-left: 50%;
 }
 .apresentacao *{
 	color: #939598;
@@ -71,8 +71,12 @@ body{
 .apresentacao h3{
 	font-size: 1.1em;
 }
+
 }
 @media only screen and (max-width:864px) {
+.apresentacao1{
+  margin-top: 0%;
+}
 .apresentacao h2{
 	font-size: 1.2em;
 }
@@ -87,6 +91,7 @@ body{
 }
 .apresentacao{
 	margin-left: 30%;
+  margin-top: 0%;
 }
 }
 @media only screen and (max-width:650px) {
@@ -117,6 +122,7 @@ body{
 }
 .apresentacao{
 	margin-left: 30%;
+  margin-top: 3%;
 }
 }
 
