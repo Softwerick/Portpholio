@@ -20,6 +20,11 @@ body{
 	margin-top: 1%;
 	margin-left: 6%;
 }
+.imgcorpo{
+  width: 88%;
+  margin-left: 6%;
+  margin-top: 2%;
+}
 .apresentacao{
 	grid-area: filler;
 	margin-top: 3%;
@@ -90,10 +95,10 @@ body{
                        "links links"
                        "capa capa"
                        "filler apre"
-                       "corpo fill1"
+                       "corpo corpo"
                        "cta cta"
                        "foot foot";
-  grid-template-rows: 5em 5em auto auto auto 18em 27em;
+  grid-template-rows: 5em 5em auto auto auto 21em 20em;
   grid-template-columns: 1fr 1fr;
   }
 .apresentacao h2{
